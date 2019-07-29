@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Ecomteck
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Ecomteck.com license that is
+ * available through the world-wide-web at this URL:
+ * https://ecomteck.com/LICENSE.txt
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade this extension to newer
+ * version in the future.
+ *
+ * @category    Ecomteck
+ * @package     Ecomteck_CustomAttributeManagement
+ * @copyright   Copyright (c) 2018 Ecomteck (https://ecomteck.com/)
+ * @license     https://ecomteck.com/LICENSE.txt
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ecomteck_CustomAttributeManagement::menu" 
+            title="Custom Attributes" 
+            translate="title" 
+            module="Ecomteck_CustomAttributeManagement" 
+            sortOrder="40"
+            parent="Ecomteck_Core::menu" 
+            dependsOnModule="Ecomteck_Core" 
+            resource="Ecomteck_CustomAttributeManagement::attributes"/>
+    </menu>
+</config>
